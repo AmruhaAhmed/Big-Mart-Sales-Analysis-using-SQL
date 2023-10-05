@@ -1,5 +1,6 @@
 # Big-Mart-Sales-Analysis-using-SQL
 The Big Mart table has 12 attributes:
+
 1.Item_Identifier
 
 2.Item_Weight
