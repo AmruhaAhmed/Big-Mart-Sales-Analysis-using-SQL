@@ -104,7 +104,7 @@ select avg(Item_Visibility),Item_Fat_Content from bigmart group by Item_Fat_Cont
 -- 0.0622839897301587|low fat
 -- regular fat content items are provided with comparitively more visibility
 
--- outlets from highest to lowest total amount of sales
+-- outlets from highest to lowest amount of sales
 select sum(Item_Outlet_Sales),Outlet_Identifier from bigmart group by Outlet_Identifier order by sum(Item_Outlet_Sales) desc;
 -- 34204.8092|OUT046
 -- 34133.5686|OUT018
@@ -219,5 +219,6 @@ select avg(Item_Outlet_Sales),Outlet_Establishment_Year from bigmart group by Ou
 -- 331.124533333333|1998
 
 -- outlets established in 2009 and 2007 have recorded highest average Item_Outlet_Sales whereas the outlets established in 1998 have the least average Item_Outlet_Sales
+
 
 
