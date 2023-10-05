@@ -125,7 +125,7 @@ select Outlet_Size,sum(Item_Outlet_Sales) from bigmart group by Outlet_Size orde
 -- Small|56714.1756
 -- High|12253.3832
 
--- medium sized outlets have proven to be most profitable sice they have the highest amount of Item_Outlet_Sales
+-- medium sized outlets have proven to be most profitable since they have the highest amount of Item_Outlet_Sales
 
 -- checking the item_type from the highest to the lowest average MRP
 select avg(Item_MRP),Item_Type from bigmart group by Item_Type order by avg(Item_MRP) desc;
